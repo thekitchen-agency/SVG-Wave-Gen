@@ -106,6 +106,13 @@ body {
 
 .sidebar-header {
   margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sidebar-title {
+  margin-bottom: 0;
 }
 
 .sidebar-header h1 {
