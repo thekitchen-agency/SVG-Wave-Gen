@@ -59,15 +59,15 @@
           <label>Bottom Color</label>
           <input type="color" id="color-bottom" value="#00f2fe">
         </div>
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="use-gradient">Use Gradient</label>
           <input type="checkbox" id="use-gradient" checked>
         </div>
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="solid-fill">Solid Fill</label>
           <input type="checkbox" id="solid-fill" checked>
         </div>
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="pos-top">Flip Vertically (Top)</label>
           <input type="checkbox" id="pos-top">
         </div>
@@ -75,45 +75,45 @@
 
       <div class="controls-group">
         <label>Animation Behavior</label>
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="anim-translate">Translate Motion <i class="info-icon" data-tooltip="Slides the wave continuously horizontally.">i</i></label>
           <input type="checkbox" id="anim-translate" checked>
         </div>
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="anim-deform">Deform Shape <i class="info-icon" data-tooltip="Morphs the wave's path dynamically to simulate churning liquid.">i</i></label>
           <input type="checkbox" id="anim-deform" checked>
         </div>
-        <label style="margin-top: 8px;">
+        <label class="mt-sm">
           <span>Deform Speed <i class="info-icon" data-tooltip="How fast the wave shape morphs and churns.">i</i></span>
           <span id="deform-speed-val" class="val">10s</span>
         </label>
         <input type="range" id="deform-speed" min="2" max="30" value="10">
         
-        <label style="margin-top: 8px;">
+        <label class="mt-sm">
           <span>Deform Intensity <i class="info-icon" data-tooltip="How violently the wave peaks shift during the morphing.">i</i></span>
           <span id="deform-intensity-val" class="val">40%</span>
         </label>
         <input type="range" id="deform-intensity" min="0" max="100" value="40">
         
-        <label style="margin-top: 8px;">
+        <label class="mt-sm">
           <span>Deform Keyframes <i class="info-icon" data-tooltip="Number of distinct shape phases. More keyframes = chaotic boiling.">i</i></span>
           <span id="deform-keyframes-val" class="val">3</span>
         </label>
         <input type="range" id="deform-keyframes" min="2" max="10" value="3">
         
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
           <label for="deform-desync">Desync Layers <i class="info-icon" data-tooltip="Randomizes deform speeds heavily to make layers fall organically out of sync.">i</i></label>
           <input type="checkbox" id="deform-desync" checked>
         </div>
 
-        <div class="checkbox-row" style="margin-top: 8px;">
+        <div class="checkbox-row mt-sm">
            <label>Direction <i class="info-icon" data-tooltip="The direction of the horizontal slide.">i</i></label>
            <select id="move-direction">
              <option value="left" selected>Left</option>
              <option value="right">Right</option>
            </select>
         </div>
-        <label style="margin-top: 12px;">
+        <label class="mt-md">
           <span>Translate Speed <i class="info-icon" data-tooltip="How fast the wave slides laterally across the container.">i</i></span>
           <span id="speed-val" class="val">10s</span>
         </label>
