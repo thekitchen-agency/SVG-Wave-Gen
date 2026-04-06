@@ -120,6 +120,34 @@ body {
 .sidebar-header p {
   color: var(--text-muted);
   font-size: 14px;
+  margin-bottom: 0;
+}
+
+#btn-randomize {
+  padding: 6px 12px;
+  font-size: 13px;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  margin-bottom: 4px;
+}
+
+/* Margin Utilities */
+.mt-sm { margin-top: 8px !important; }
+.mt-md { margin-top: 12px !important; }
+
+/* Select fields */
+select {
+  background: rgba(255,255,255,0.1); 
+  color: white; 
+  border: 1px solid var(--panel-border); 
+  border-radius: 6px; 
+  padding: 4px 8px;
+  font-family: inherit;
+  outline: none;
+}
+select option {
+  background: var(--bg-color);
+  color: white;
 }
 
 .controls-group {
